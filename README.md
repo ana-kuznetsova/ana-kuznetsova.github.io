@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+<div class="grid-container">
+    <div class="grid-item">
+        <img src="img/prof_pic.jpg"
+        alt="anakuzne pic"
+        style="width:250px;" />
+    </div>
+</div>
 
-You can use the [editor on GitHub](https://github.com/ana-kuznetsova/anakuzne.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Research Interests
+- Reinforcement learning (RL)
+- Automated Speech Recognition (ASR)
+- Speech Enhancement (SE)
+- Curriculum Learning
+- ASR for marginalized languages
+- Low-resource ASR
 
-### Markdown
+---------
+Hi, my name is Anastasia and I am the second year PhD student in Computer Science and Computational Linguisitcs at Indiana University, Bloomington. My research mainly is focused on *Reinforcement learning* techniques and algorithms in speech processing applications.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I am a part of *[Aspire](https://aspire.sice.indiana.edu/)* research group organized by Prof. Donald Williamson and *Inclusive technology for marginalized languages* (ITML) laboratory mentored by Prof. Francis Tyers here at IU.
 
-```markdown
-Syntax highlighted code block
+There's not much here at this point since I have just started developing the concept of this website. But I am planning to publish short blog posts and paper summaries on recent advances in **speech enhancement** and **speech recognition**, make short but informative write ups on RL algorithms in a very comprehensive manner as well as include my own insights and achievements in this area.
 
-# Header 1
-## Header 2
-### Header 3
+-----------
+### Contact Info
+*Email:* anakuzne@iu.edu
 
-- Bulleted
-- List
+*GutHub:* ana-kuznetsova
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ana-kuznetsova/anakuzne.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[LinkedIn](https://www.linkedin.com/in/anastasia-kuznetsova-2bb66b116)
