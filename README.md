@@ -1,5 +1,6 @@
 <div class="topnav">
   <a href="https://ana-kuznetsova.github.io/about">About</a>
+  <a href="https://ana-kuznetsova.github.io/projects">Projects</a>
 </div>
 
 ## Reinforcement Learning In Speech
