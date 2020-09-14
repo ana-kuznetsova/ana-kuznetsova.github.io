@@ -1,15 +1,3 @@
 theme: jekyll-theme-slate
 title: Reinforcement Learning for Speech
 description: A comprehensive blog about speech
-
-docs_list_title: Pages
-docs:
-  
-- title: About the author
-  url: about.md
-
-- title: Projects
-  url: projects.md
-
-- title: CV
-  url: cv.md
