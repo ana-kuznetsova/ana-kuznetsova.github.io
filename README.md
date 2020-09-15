@@ -1,4 +1,4 @@
-### Table of contents
+### Pages
 - [About the author](#about)
 - [Projects](#projects)
 
