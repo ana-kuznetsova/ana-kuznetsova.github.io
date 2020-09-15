@@ -1,6 +1,7 @@
 ### Pages
 - [About the author](https://ana-kuznetsova.github.io/about)
-- [Projects](#projects)
+- [Projects](https://ana-kuznetsova.github.io/projects)
+- [CV](https://ana-kuznetsova.github.io/cv)
 
 This is a personal page and blog of Anastasia Kuznetsova, PhD student at Indiana University, Bloomington. I am conducting research in speech processing realm of deep learning, exploring the applications of Reinforcement Learning in Speech Enhancement and Speech Recognition.
 
