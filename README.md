@@ -1,3 +1,10 @@
+<h2>{{site.data.samplelist.docs_list_title }}</h2>
+<ul>
+   {% for item in site.data.samplelist.docs %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+   {% endfor %}
+</ul>
+
 This is a personal page and blog of Anastasia Kuznetsova, PhD student at Indiana University, Bloomington. I am conducting research in speech processing realm of deep learning, exploring the applications of Reinforcement Learning in Speech Enhancement and Speech Recognition.
 
 ### What is this web page about?

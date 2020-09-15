@@ -1,0 +1,8 @@
+docs_list_title: Pages
+docs:
+
+- title: About the author
+  url: about.md
+
+- title: CV
+  url: cv.md
