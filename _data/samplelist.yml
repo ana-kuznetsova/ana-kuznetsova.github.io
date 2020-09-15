@@ -2,7 +2,7 @@ docs_list_title: Pages
 docs:
 
 - title: About the author
-  url: about
+  url: /about
 
 - title: CV
-  url: cv
+  url: /cv
