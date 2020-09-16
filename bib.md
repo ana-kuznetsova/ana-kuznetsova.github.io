@@ -1,3 +1,8 @@
+- [About the author](https://ana-kuznetsova.github.io/about)
+- [Projects](https://ana-kuznetsova.github.io/projects)
+- [Publications](https://ana-kuznetsova.github.io/pub)
+- <a href="a_kuznetsova_cv.pdf">CV</a>
+
 ## Bibliography
 
 List of the papers I came accross that exploit reinforcement learning algorithms in ASR and speech enhancement tasks.
