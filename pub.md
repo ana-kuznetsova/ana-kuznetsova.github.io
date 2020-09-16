@@ -8,7 +8,7 @@
 
 |     Speech processing                                                                                        |            |
 |---------------------------------------------------------------------------------------------|------------|
-| A reinforcement-learning approach to curriculum generation for automatic speech recognition | Submission |
+|*Kuznetsova, Anastasia, Anurag Kumar, and Francis Tyers.* A reinforcement-learning approach to curriculum generation for automatic speech recognition | Submission |
 |                                                                                             |            |
 
 
