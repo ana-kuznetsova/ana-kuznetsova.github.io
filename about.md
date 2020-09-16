@@ -33,6 +33,4 @@ Address: 700 N Woodlawn Ave, Bloomington, IN 47408, 3061N
 
 Email: anakuzne@iu.edu
 
-GutHub: ana-kuznetsova
-
 [LinkedIn](https://www.linkedin.com/in/anastasia-kuznetsova-2bb66b116)
