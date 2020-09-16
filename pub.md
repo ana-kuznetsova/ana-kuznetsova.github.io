@@ -6,7 +6,7 @@
 ## List of publications
 
 
-|     Speech processing                                                                                        |            |
+|     Speech Processing                                                                                        |            |
 |---------------------------------------------------------------------------------------------|------------|
 |*Kuznetsova, Anastasia, Anurag Kumar, and Francis Tyers.* A reinforcement-learning approach to curriculum generation for automatic speech recognition | Submission |
 |                                                                                             |            |
