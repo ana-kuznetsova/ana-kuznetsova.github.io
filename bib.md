@@ -1,3 +1,4 @@
+- [Home](https://ana-kuznetsova.github.io/)
 - [About the author](https://ana-kuznetsova.github.io/about)
 - [Projects](https://ana-kuznetsova.github.io/projects)
 - [Publications](https://ana-kuznetsova.github.io/pub)
