@@ -2,6 +2,7 @@
 - [About the author](https://ana-kuznetsova.github.io/about)
 - [Publications](https://ana-kuznetsova.github.io/pub)
 - <a href="a_kuznetsova_cv.pdf">CV</a>
+- [Bibliography](https://ana-kuznetsova.github.io/bib)
 
 ### Current Projects
 
