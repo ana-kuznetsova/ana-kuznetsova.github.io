@@ -1,3 +1,8 @@
+- [Home](https://ana-kuznetsova.github.io/)
+- [Projects](https://ana-kuznetsova.github.io/projects)
+- [Publications](https://ana-kuznetsova.github.io/pub)
+- <a href="a_kuznetsova_cv.pdf">CV</a>
+
 <div class="grid-container">
     <div class="grid-item">
         <img src="img/prof_pic.jpg"
