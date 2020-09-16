@@ -10,6 +10,12 @@
 
 Ongoing project explores the possibilities of exploiting RL algorithms in speech enhancement area inlow-data setting. Current phase involves implementation and testing of the existing RL-based speechdenoising techniques from published papers.
 
+#### Collecting Guarani Speech Corpus for Common Voice
+
+*[Common Voice](https://commonvoice.mozilla.org/en)* is Mozilla's inclusive open source initiative for collecting speech data involving most widely spoken languages as well as low resource languages. At the moment I am coordinating contributors and open source community to create a data set for Paraguayan Guarani. I am collecting the corpus of sententes written in Guarani which will be recorded. 
+
+The end results of the project will be the first publically available speech-to-text Guarani model.
+
 #### A reinforcement-learning approach to curriculum generation for ASR
 
 The project suggests an approach to mitigate the lack of training data by employing an Automated Curriculum Learning paradigm in combination with bandit approach inspired by the reinforcement learning domain. The implemented bandit framework shows a 10% WER and 27% CER improvementover the baseline model and the potential of the further investigation of RL algorithms in ASR.
