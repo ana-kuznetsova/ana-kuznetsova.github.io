@@ -1,5 +1,3 @@
 ### AudioLM ###
 
-<audio controls="controls">
-  <source type="audio/mp3" src="/aud/1089_continuation_12rvq_0_clipped.mp3"></source>
-</audio>
+!audio[ Spk1 ]( /aud/1089_continuation_12rvq_0_clipped.mp3 ){ size=10 duration=10 cycle=forever }
