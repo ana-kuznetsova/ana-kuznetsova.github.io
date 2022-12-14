@@ -1,6 +1,3 @@
-- [Home](https://ana-kuznetsova.github.io/)
-
-
 | Conference papers                                                                                                                                                                                                                                               |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Anastasia Kuznetsova**, Anurag Kumar, Jennifer Drexler-Fox and Francis Tyers, “Curriculum Optimization for Low-resource Speech Recognition,” Proc. 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2022, 8187 – 8191. |
