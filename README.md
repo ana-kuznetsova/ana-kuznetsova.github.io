@@ -1,3 +1,5 @@
+![](anastasia_pic.jpeg)
+
 - [Publications](https://ana-kuznetsova.github.io/pub)
 - <a href="a_kuznetsova_phd_cv.pdf">CV</a>
 
