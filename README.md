@@ -1,4 +1,4 @@
-![](anastasia_pic.jpeg)
+![](anastasia_pic.jpeg =250x250)
 
 - [Publications](https://ana-kuznetsova.github.io/pub)
 - <a href="a_kuznetsova_phd_cv.pdf">CV</a>
