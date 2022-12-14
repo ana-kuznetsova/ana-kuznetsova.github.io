@@ -1,4 +1,5 @@
-![](anastasia_pic.jpeg | width=100)
+
+<img src="https://github.com/anastasia_pic.jpe" width="100">
 
 - [Publications](https://ana-kuznetsova.github.io/pub)
 - <a href="a_kuznetsova_phd_cv.pdf">CV</a>
