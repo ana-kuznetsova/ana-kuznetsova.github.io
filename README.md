@@ -1,11 +1,7 @@
-### Pages
-- [About the author](https://ana-kuznetsova.github.io/about)
-- [Projects](https://ana-kuznetsova.github.io/projects)
+
+<img src="anastasia_pic.jpeg" width="200">
+
 - [Publications](https://ana-kuznetsova.github.io/pub)
-- <a href="a_kuznetsova_cv.pdf">CV</a>
-- [Bibliography](https://ana-kuznetsova.github.io/bib)
+- <a href="a_kuznetsova_phd_cv.pdf">CV</a>
 
-This is a personal page and blog of Anastasia Kuznetsova, PhD student at Indiana University, Bloomington. I am conducting research in speech processing realm of deep learning, exploring the applications of Reinforcement Learning in Speech Enhancement and Speech Recognition.
-
-### What is this blog about?
-There's not much here at this point since I have just started developing the concept of this website. But I am planning to publish short blog posts and paper summaries on recent advances in **speech enhancement** and **speech recognition**, make short but informative write ups on RL algorithms in a very comprehensive manner as well as include my own insights and achievements in this area.
+My name is Anastasia Kuznetsova, I am a PhD Student with dual major in Computer Science and Computational Linguistics (Indiana University Bloomington). In the begginning of 2022 I joined Signals and AI Group in Engineering [SAIGE](https://saige.sice.indiana.edu/) led by Prof. Minje Kim. My research interests lie in a wide variety of speech and signal processing related topics: TTS, voice conversion, speech recognition and speech enhancement.

@@ -1,21 +1,12 @@
-- [Home](https://ana-kuznetsova.github.io/)
-- [About the author](https://ana-kuznetsova.github.io/about)
-- [Projects](https://ana-kuznetsova.github.io/projects)
-- <a href="a_kuznetsova_cv.pdf">CV</a>
-- [Bibliography](https://ana-kuznetsova.github.io/bib)
-
-## List of publications
-
-
-|     Speech Processing                                                                                        |            |
-|---------------------------------------------------------------------------------------------|------------|
-|*Kuznetsova, Anastasia, Anurag Kumar, and Francis Tyers.* A reinforcement-learning approach to curriculum generation for automatic speech recognition | Submission |
-|                                                                                             |            |
+| Conference papers                                                                                                                                                                                                                                               |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Anastasia Kuznetsova**, Anurag Kumar, Jennifer Drexler-Fox and Francis Tyers, “Curriculum Optimization for Low-resource Speech Recognition,” Proc. 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2022, 8187 – 8191. |
+| Piyush Vyas, **Anastasia Kuznetsova** and Donald S. Williamson, “Optimally Encoding Inductive Biases into the Transformer Improves End-to-End Speech Translation,” Proc. Interspeech, 2021, 2287 – 2291. *Winner of 2021 Interspeech Best Student Paper Award.* |
+| **Anastasia Kuznetsova** and Francis Tyers, “A finite-state morphological analyser for Paraguayan Guaraní,” Proc. of the First Workshop on Natural Language Processing for Indigenous Languages of the Americas, 2021, 81 – 89.                                 |
+| Anna Zueva, **Anastasia Kuznetsova** and Francis Tyers, “A finite-state morphological analyser for evenki,” Proc. of The 12th Language Resources and Evaluation Conference (LREC), 2020, 2581 – 2589.                                                           |
 
 
 
-|          Computational Morphology                                                                                                                                                                             |   |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|
-|*Kuznetsova, Anastasia, Francis Tyers.* A finite state morphological analyser for Paraguayan Guaran. In journal Language Resources and Evaluation.                                                                      | Submission, In review |
-| *Zueva, Anna, Anastasia Kuznetsova, and Francis Tyers.* "A Finite-State Morphological Analyser for Evenki." Proceedings of The 12th Language Resources and Evaluation Conference. 2020. | [PDF](https://www.aclweb.org/anthology/2020.lrec-1.314/)  |
-|                                                                                                                                                                                       |   |
+| Preprints                                                                                                                                                                                 |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Anastasia Kuznetsova**, Aswin Sivaraman, Minje Kim, “The potential of Neural Speech Synthesis-based Data Augmentation for Personalized Speech Enhancement,” (Sibmitted to ICASSP 2023). |
