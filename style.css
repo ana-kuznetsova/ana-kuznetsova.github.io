@@ -101,6 +101,10 @@ section p, section ul {
     color: #666; /* Light gray */
 }
 
+.education-item {
+    margin-bottom: 1.5rem;
+}
+
 footer {
     text-align: center;
     padding: 1rem 0;
