@@ -105,6 +105,15 @@ section p, section ul {
     margin-bottom: 1.5rem;
 }
 
+.awards-list {
+    list-style: none;
+    padding: 0;
+}
+
+.awards-list li {
+    margin-bottom: 0.5rem;
+}
+
 .contact-info {
     list-style: none;
     padding: 0;
