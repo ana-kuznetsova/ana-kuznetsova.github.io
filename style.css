@@ -1,8 +1,8 @@
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Merriweather:wght@300;400;700&display=swap');
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather', serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background: #007acc;
+    background: #4a4a4a; /* Soft gray */
     color: #fff;
     padding: 2rem 0;
     text-align: center;
@@ -27,7 +27,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lora', serif;
 }
 
 header p {
@@ -61,11 +61,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #007acc;
+    color: #6b8e23; /* Muted green */
 }
 
 nav ul li a.active {
-    color: #007acc;
+    color: #6b8e23; /* Muted green */
 }
 
 section {
@@ -77,9 +77,9 @@ section {
 }
 
 section h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lora', serif;
     font-size: 2rem;
-    color: #007acc;
+    color: #6b8e23; /* Muted green */
 }
 
 section p, section ul {
@@ -90,7 +90,7 @@ section p, section ul {
 footer {
     text-align: center;
     padding: 1rem 0;
-    background: #007acc;
+    background: #4a4a4a; /* Soft gray */
     color: #fff;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
