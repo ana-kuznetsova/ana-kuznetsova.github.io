@@ -29,7 +29,7 @@ header {
 }
 
 .profile-pic {
-    width: 150px;
+    width: 100px;
     height: auto;
     margin-right: 1rem;
 }
@@ -103,6 +103,19 @@ section p, section ul {
 
 .education-item {
     margin-bottom: 1.5rem;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 0.5rem;
+}
+
+.contact-info i {
+    margin-right: 0.5rem;
 }
 
 footer {
