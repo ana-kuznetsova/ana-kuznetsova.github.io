@@ -198,7 +198,7 @@ footer {
 }
 
 .project-item .project-image {
-    width: 20%; /* Adjust the width as needed */
+    width: 50%; /* Adjust the width as needed */
     height: auto;
     border-radius: 8px;
     margin-bottom: 1rem;
