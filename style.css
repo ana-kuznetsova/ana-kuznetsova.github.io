@@ -174,10 +174,18 @@ footer {
 
 .tag {
     display: inline-block;
-    background-color: #333; /* Dark gray */
+    background-color: #007bff; /* Blue */
     color: #fff;
-    padding: 0.2rem 0.5rem;
+    padding: 0.3rem 0.6rem;
     border-radius: 4px;
     font-size: 0.8rem;
     margin-right: 0.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tag:hover {
+    background-color: #0056b3; /* Darker blue */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
