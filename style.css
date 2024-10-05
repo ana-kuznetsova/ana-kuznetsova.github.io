@@ -197,7 +197,7 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.project-image {
+.project-item .project-image {
     width: 20%; /* Adjust the width as needed */
     height: auto;
     border-radius: 8px;
