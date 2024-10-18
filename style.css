@@ -190,6 +190,39 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Tab styles */
+.tabs {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+}
+
+.tablink {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tablink:hover {
+    background-color: #ddd;
+}
+
+.tablink.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+/* Project styles */
 .project-item {
     background-color: #fff; /* White background */
     padding: 1rem;
@@ -219,7 +252,7 @@ footer {
 
 .project-image-container {
     width: 40%; /* Adjust the width as needed */
-    text-align: left;
+    text-align: center;
 }
 
 .project-image-container figcaption {
