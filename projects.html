@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -47,12 +49,12 @@
                 </div>
                 <h3>Discrete encoder representations for ASR</h3>
                 <p>Discrete audio and semantic tokens inspired by large language models gained popularity
-                    not only in natural language processing but also in speech and audio applications. 
+                    not only in natural language processing but also in speech and audio applications.
                     The potential of neural codecs and semantic SSL representations has been vastly explored
                     for reducing the training complexity of a variety of the downstream tasks.
-                    However, for the transmission and 
-                    communication scenarios, when the ASR system is deployed on the edge devices, the bitrate 
-                    of the speech tokens is of the utmost importance. In this project, we explore the lower bound 
+                    However, for the transmission and
+                    communication scenarios, when the ASR system is deployed on the edge devices, the bitrate
+                    of the speech tokens is of the utmost importance. In this project, we explore the lower bound
                     of the bitrate of the discrete representations for ASR systems without loss of the recognition
                     accuracy. To save the space on device and reduce the transmission latency, we propose quantization
                     method for the ASR encoder.
@@ -66,16 +68,20 @@
                     <span class="tag">Speech synthesis</span>
                     <span class="tag">ICASSP 2023</span>
                 </div>
-                <h3>The Potential of Neural Speech Synthesis-Based Data Augmentation for Personalized Speech Enhancement</h3>
+                <h3>The Potential of Neural Speech Synthesis-Based Data Augmentation for Personalized Speech Enhancement
+                </h3>
                 <div class="project-content">
                     <div class="project-text">
                         <p>With the advances in deep learning, speech enhancement systems
-                            benefited from large neural network architectures and achieved stateof-the-art quality. However, speaker-agnostic methods are not always desirable, both in terms of quality and their complexity, when
+                            benefited from large neural network architectures and achieved stateof-the-art quality.
+                            However, speaker-agnostic methods are not always desirable, both in terms of quality and
+                            their complexity, when
                             they are to be used in a resource-constrained environment. One
                             promising way is personalized speech enhancement (PSE), which is
                             a smaller and easier speech enhancement problem for small models
                             to solve, because it focuses on a particular test-time user. To achieve
-                            the personalization goal, while dealing with the typical lack of personal data, we investigate the effect of data augmentation based on
+                            the personalization goal, while dealing with the typical lack of personal data, we
+                            investigate the effect of data augmentation based on
                             neural speech synthesis (NSS). In the proposed method, we show
                             that the quality of the NSS system’s synthetic data matters, and if
                             they are good enough the augmented dataset can be used to improve
@@ -87,6 +93,32 @@
                         <a href="https://iu.mediaspace.kaltura.com/media/t/1_w9qjy9wi" target="_blank">[Demo]</a>
                     </div>
                     <img src="img/pse_img.jpg" alt="pse_diagram" class="project-image">
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="tags">
+                    <span class="tag">Curriculum Learning</span>
+                    <span class="tag">ASR</span>
+                    <span class="tag">Reinforcement Learning</span>
+                </div>
+                <h3>Curriculum optimization for low-resource speech recognition</h3>
+                <div class="project-content">
+                    <div class="project-text">
+                        <p>End-to-end speech recognition models show astonishing results in transcribing audio signals
+                            into written text.
+                            However, conventional data feeding pipelines may be suboptimal for low-resource speech
+                            recognition, which still remains a challenging task. We propose an automated curriculum
+                            learning approach to optimize the sequence of training
+                            examples based on both the progress of the model while training and prior knowledge about
+                            the difficulty of the training
+                            examples. We introduce a new difficulty measure called compression ratio that can be used as
+                            a scoring function for raw
+                            audio in various noise conditions. The proposed method improves speech recognition Word
+                            Error Rate performance by
+                            up to 33% relative over the baseline system</p>
+                        <a href="https://ieeexplore.ieee.org/document/9746674" target="_blank">[Paper]</a>
+                    </div>
+                    <img src="img/snr_cr.png" alt="snr_cr_dependence" class="project-image">
                 </div>
             </div>
             <!-- Add more project items as needed -->
