@@ -218,8 +218,8 @@ footer {
 }
 
 .project-image-container {
-    width: 20%; /* Adjust the width as needed */
-    text-align: center;
+    width: 40%; /* Adjust the width as needed */
+    text-align: left;
 }
 
 .project-image-container figcaption {
