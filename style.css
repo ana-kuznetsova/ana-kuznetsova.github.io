@@ -202,10 +202,12 @@ footer {
     display: flex;
     align-items: flex-start;
     gap: 1rem;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
 
 .project-text {
     flex: 1;
+    min-width: 200px; /* Ensure a minimum width for the text container */
 }
 
 .project-image {
