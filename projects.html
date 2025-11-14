@@ -16,7 +16,7 @@
                 <img src="profile.jpg" alt="Anastasia Kuznetsova" class="profile-pic">
                 <div class="header-text">
                     <h1>Anastasia Kuznetsova</h1>
-                    <p>PhD Candidate in Computer Science and Computational Linguistics</p>
+                    <p class="role-title">PhD Candidate in Computer Science and Computational Linguistics</p>
                     <p>Indiana University Bloomington</p>
                 </div>
             </div>
@@ -31,15 +31,15 @@
                 <li><a href="index.html#teaching">Teaching</a></li>
                 <li><a href="index.html#awards">Awards</a></li>
                 <li><a href="index.html#services">Service</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="index.html#cv">CV</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="a_kuznetsova_postdoc_cv.pdf" target="_blank" class="cv-link-nav">CV</a></li>
                 <li><a href="index.html#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
     <section id="projects">
         <div class="container">
-            <h2>Projects</h2>
+            <h2>Research Projects</h2>
             <div class="project-item">
                 <div class="tags">
                     <span class="tag">ASR</span>
@@ -87,10 +87,12 @@
                             proposed PSE systems show significant complexity reduction while
                             preserving the enhancement quality.
                         </p>
-                        <a href="https://arxiv.org/pdf/2211.07493" target="_blank">[Paper]</a>
-                        <a href="https://iu.mediaspace.kaltura.com/media/t/1_w9qjy9wi" target="_blank">[Demo]</a>
+                        <div class="project-links">
+                            <a href="https://arxiv.org/pdf/2211.07493" target="_blank" class="tag">Read Paper</a>
+                            <a href="https://iu.mediaspace.kaltura.com/media/t/1_w9qjy9wi" target="_blank" class="tag">Watch Demo</a>
+                        </div>
                     </div>
-                    <img src="img/pse_img.jpg" alt="pse_diagram" class="project-image">
+                    <img src="img/pse_img.jpg" alt="Personalized Speech Enhancement Diagram" class="project-image">
                 </div>
             </div>
             <div class="project-item">
@@ -103,25 +105,26 @@
                 <div class="project-content">
                     <div class="project-text">
                         <p>End-to-end speech recognition models show astonishing results in transcribing audio signals
-                        into written text. However, conventional data feeding pipelines may be suboptimal for low-resource speech
-                        recognition, which still remains a challenging task. We propose an automated curriculum
-                        learning approach to optimize the sequence of training examples based on both the progress of the model while training
-                        and prior knowledge about
-                        the difficulty of the training examples. We introduce a new difficulty measure called compression ratio that can be used
-                        as
-                        a scoring function for raw audio in various noise conditions. The proposed method improves speech recognition Word
-                        Error Rate performance by up to 33% relative over the baseline system.</p>
+                            into written text. However, conventional data feeding pipelines may be suboptimal for low-resource speech
+                            recognition, which still remains a challenging task. We propose an automated curriculum
+                            learning approach to optimize the sequence of training examples based on both the progress of the model while training
+                            and prior knowledge about
+                            the difficulty of the training examples. We introduce a new difficulty measure called compression ratio that can be used
+                            as
+                            a scoring function for raw audio in various noise conditions. The proposed method improves speech recognition Word
+                            Error Rate performance by up to 33% relative over the baseline system.</p>
 
-                        <a href="https://ieeexplore.ieee.org/document/9746674" target="_blank">[Paper]</a>
-                        <a href="files/ICASSP2022_Poster.pdf" target="_blank">[Poster]</a>
+                        <div class="project-links">
+                            <a href="https://ieeexplore.ieee.org/document/9746674" target="_blank" class="tag">Read Paper</a>
+                            <a href="files/ICASSP2022_Poster.pdf" target="_blank" class="tag">View Poster</a>
+                        </div>
                     </div>
                     <figure class="project-image-container">
-                        <img src="img/snr_cr.png" alt="snr_cr_dependence" class="project-image">
+                        <img src="img/snr_cr.png" alt="Compression Ratio vs SNR Dependence" class="project-image">
                         <figcaption>Compression ratio vs. SNR.</figcaption>
                     </figure>
                 </div>
             </div>
-            <!-- Add more project items as needed -->
         </div>
     </section>
     <section id="linguistics-projects">
@@ -136,10 +139,12 @@
                 <div class="project-content">
                     <div class="project-text">
                         <p>This project involves developing a finite-state morphological analyser for Paraguayan Guaraní, an indigenous language spoken in Paraguay. The analyser uses finite-state transducers to model the morphological processes of the language, enabling accurate analysis and generation of word forms.</p>
-                        <a href="https://aclanthology.org/2021.americasnlp-1.9.pdf" target="_blank">[Paper]</a>
-                        <a href="https://github.com/apertium/apertium-grn" target="_blank">[Code]</a>
+                        <div class="project-links">
+                            <a href="https://aclanthology.org/2021.americasnlp-1.9.pdf" target="_blank" class="tag">Read Paper</a>
+                            <a href="https://github.com/apertium/apertium-grn" target="_blank" class="tag">View Code</a>
+                        </div>
                     </div>
-                    <img src="img/nouns_fst.png" alt="Guaraní Nouns" class="project-image">
+                    <img src="img/nouns_fst.png" alt="Guaraní Nouns FST Diagram" class="project-image">
                 </div>
             </div>
             <div class="project-item">
@@ -153,16 +158,23 @@
                         <p>In partnership with Mozilla, Aperitum and Academía de la Lengua Guaraní (Paraguay) collected audio and text
                             for the open sourced Common Voice dataset. The dataset was officially released and currently contains 27
                             hours of spoken speech, 188 speakers and 5894 sentences.</p>
-                        <a href="https://commonvoice.mozilla.org/" target="_blank">[Download]</a>
+                        <div class="project-links">
+                            <a href="https://commonvoice.mozilla.org/" target="_blank" class="tag">Download Dataset</a>
+                        </div>
                     </div>
-                    <img src="img/grn_map.jpg" alt="Guaraní map" class="project-image">
-                    <img src="img/grn_stats.png" alt="Guaraní card" class="project-image">
+                    <div class="project-image-container double-image-container">
+                        <img src="img/grn_map.jpg" alt="Paraguayan Guaraní Map" class="project-image-small">
+                        <img src="img/grn_stats.png" alt="Paraguayan Guaraní Common Voice Stats" class="project-image-small">
+                    </div>
                 </div>
-                </div>
-                </div>
+            </div>
+        </div>
     </section>
     <footer>
         <div class="container">
             <p>&copy; 2024 Anastasia Kuznetsova. All rights reserved.</p>
         </div>
     </footer>
+</body>
+
+</html>

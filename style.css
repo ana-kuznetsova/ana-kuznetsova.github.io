@@ -1,37 +1,69 @@
-/* Use GitHub's system fonts */
+/*
+    Revised style.css: Sharper Look & Subtle Animations
+*/
+
+:root {
+    --primary-color: #a32400; /* Dark Crimson/Maroon - IU/Academic Accent */
+    --secondary-color: #f0f0f0; /* Light Gray for backgrounds */
+    --text-dark: #2c3e50; /* Darker text for better contrast */
+    --text-light: #7f8c8d; /* Muted gray for body text */
+}
+
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    line-height: 1.6;
+    /* Use a clear, system-default font stack */
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.7; /* Increased line-height for better readability */
     margin: 0;
     padding: 0;
-    background: #f9f9f9;
-    color: #333;
+    background: var(--secondary-color);
+    color: var(--text-dark);
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover {
+    color: #c0392b; /* Slightly lighter accent on hover */
+    text-decoration: underline;
 }
 
 .container {
-    width: 80%;
+    width: 90%; /* Increased width for better use of space */
+    max-width: 1100px; /* Max width to prevent content from stretching too far */
     margin: auto;
     overflow: hidden;
 }
 
+/* --- Header Section --- */
 header {
-    background: #333; /* Dark gray */
+    background: var(--text-dark); /* Dark background */
     color: #fff;
-    padding: 2rem 0;
+    padding: 3rem 0; /* More vertical padding */
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .header-content {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 2rem; /* Space between picture and text */
 }
 
 .profile-pic {
-    width: 150px;
-    height: auto;
-    margin-right: 1rem;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%; /* Circular image */
+    border: 4px solid #fff; /* White border for emphasis */
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05); /* Interactive animation: subtle zoom on hover */
 }
 
 .header-text {
@@ -41,125 +73,201 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5rem;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700; /* Bolder for impact */
+}
+
+.role-title {
+    font-size: 1.1rem;
+    color: #bdc3c7; /* Muted white */
+    margin-top: 0.5rem;
 }
 
 header p {
-    font-size: 1.2rem;
-    color: #e0e0e0;
+    font-size: 1rem;
+    color: #bdc3c7;
+    margin: 0;
 }
 
+/* --- Navigation Section --- */
 nav {
     background: #fff;
-    color: #333;
     padding: 1rem 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    position: sticky; /* Sticky navigation */
+    top: 0;
+    z-index: 1000;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     text-align: center;
+    margin: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 1rem;
+    margin: 0 1.2rem;
 }
 
 nav ul li a {
-    color: #333;
-    text-decoration: none;
+    color: var(--text-dark);
     font-weight: 600;
-    transition: color 0.3s;
+    padding: 0.5rem 0;
+    transition: color 0.3s, border-bottom 0.3s;
+    border-bottom: 2px solid transparent; /* Prepare for border animation */
 }
 
-nav ul li a:hover {
-    color: #555; /* Medium gray */
+nav ul li a:hover, nav ul li a.active {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color); /* Interactive animation: bottom border slides in */
 }
 
-nav ul li a.active {
-    color: #555; /* Medium gray */
+.cv-link-nav {
+    font-weight: 700 !important;
+    color: var(--primary-color) !important;
 }
 
+/* --- Content Sections --- */
 section {
-    padding: 2rem 0;
-    margin: 2rem 0;
+    padding: 3rem 0; /* More padding */
+    margin: 2rem auto;
     background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Softer corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Stronger shadow to lift it */
 }
 
 section h2 {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-size: 2rem;
-    color: #333; /* Dark gray */
+    font-size: 2.2rem;
+    color: var(--text-dark);
+    border-bottom: 2px solid var(--primary-color); /* Accent line under title */
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
 }
 
 section p, section ul {
-    font-size: 1rem;
-    color: #666; /* Light gray */
+    font-size: 1.05rem;
+    color: var(--text-light);
 }
 
-.education-item {
-    margin-bottom: 1.5rem;
-}
+/* --- Specific List Styling (Publications, Education) --- */
 
-.awards-list {
+/* Publications List */
+.publication-list {
     list-style: none;
     padding: 0;
 }
 
-.awards-list li {
-    margin-bottom: 0.5rem;
+.publication-item {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #eee; /* Light border for separation */
+    border-radius: 6px;
+    line-height: 1.6;
+    background-color: #fff;
+    transition: background-color 0.3s, transform 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
-.teaching-item {
-    margin-bottom: 1.5rem;
+.publication-item:hover {
+    background-color: #fcfcfc;
+    transform: translateY(-3px); /* Interactive animation: subtle lift on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.award-highlight {
+    border-left: 5px solid var(--primary-color); /* Highlight for awarded papers */
+    background-color: #fff7f7;
+}
+
+/* Education and Teaching */
+.education-item, .teaching-item, .service-item {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-left: 4px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    border-radius: 6px;
+}
+
+.education-item h3, .teaching-item h3, .service-item h3 {
+    margin-top: 0;
+    color: var(--text-dark);
+    font-weight: 600;
+}
+
+.education-item p, .teaching-item p {
+    margin: 0.5rem 0;
+    color: var(--text-light);
 }
 
 
-.contact-info {
-    list-style: none;
-    padding: 0;
-}
-
-.contact-info li {
-    margin-bottom: 0.5rem;
-}
-
-.contact-info i {
-    margin-right: 0.5rem;
-}
-.service-item {
-    margin-bottom: 1.5rem;
-}
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    background: #333; /* Dark gray */
-    color: #fff;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-}
-
+/* --- CV Link --- */
 .cv-link {
     display: inline-block;
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    background-color: #333; /* Dark gray */
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--primary-color);
     color: #fff;
+    font-weight: 700;
     text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 0.3s;
+    border-radius: 30px; /* Pill shape for a modern button look */
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .cv-link:hover {
-    background-color: #555; /* Medium gray */
+    background-color: #c0392b; /* Darker on hover */
+    transform: translateY(-2px); /* Interactive animation: subtle lift */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
+
+/* --- Contact and Footer --- */
+.contact-info {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem 3rem;
+}
+
+.contact-info li {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info i {
+    margin-right: 0.75rem;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    width: 20px; /* Fixed width for alignment */
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    background: var(--text-dark);
+    color: #fff;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 0;
+}
+
+/* --- Responsiveness (Media Query) --- */
 @media (max-width: 768px) {
     .container {
         width: 95%;
+    }
+
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-text {
+        text-align: center;
     }
 
     nav ul li {
@@ -168,61 +276,48 @@ footer {
     }
 }
 
-.tags {
-    margin-bottom: 0.5rem;
-}
+/* --- Project-specific Link and Image Adjustments --- */
 
-.tag {
-    display: inline-block;
-    background-color: #007bff; /* Blue */
-    color: #fff;
-    padding: 0.3rem 0.6rem;
-    border-radius: 4px;
-    font-size: 0.8rem;
-    margin-right: 0.5rem;
-    text-decoration: none;
-    transition: background-color 0.3s, box-shadow 0.3s;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.tag:hover {
-    background-color: #0056b3; /* Darker blue */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.project-item {
-    background-color: #fff; /* White background */
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.project-content {
+.project-links {
+    margin-top: 1rem;
     display: flex;
-    align-items: flex-start;
-    gap: 1rem;
-    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    gap: 10px;
 }
 
-.project-text {
-    flex: 1;
-    min-width: 200px; /* Ensure a minimum width for the text container */
+/* Ensure the .tag style is used for project links for a button look */
+.project-links .tag {
+    /* Overrides the default blue to use the primary accent color */
+    background-color: var(--primary-color);
+    color: #fff;
+    font-weight: 600;
 }
 
-.project-image {
-    width: 40%; /* Adjust the width as needed */
-    height: auto;
+.project-links .tag:hover {
+    background-color: #c0392b; /* Darker accent on hover */
+}
+
+/* For the last project with two images */
+.double-image-container {
+    display: flex;
+    flex-direction: column; /* Stack images vertically on small screens */
+    gap: 10px;
+}
+
+.project-image-small {
+    width: 100%; /* Take full width of the container */
+    max-height: 200px; /* Constrain the height of smaller images */
+    object-fit: cover;
     border-radius: 8px;
-    margin-bottom: 1rem;
 }
 
-.project-image-container {
-    width: 40%; /* Adjust the width as needed */
-    text-align: center;
-}
-
-.project-image-container figcaption {
-    font-size: 0.9rem;
-    color: #666; /* Light gray */
+/* On larger screens, arrange images side-by-side */
+@media (min-width: 768px) {
+    .double-image-container {
+        flex-direction: row;
+        width: 40%; /* Match the project-image container width */
+        align-self: flex-start; /* Align with the text content */
+    }
+    .project-image-small {
+        width: 50%; /* Each image takes half the container width */
+    }
 }
